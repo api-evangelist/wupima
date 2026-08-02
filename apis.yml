@@ -1,7 +1,26 @@
 aid: wupima
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wupima.png
 name: Wupima
-description: Wupima is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Wupima, Inc. was a Virginia-based mobile social intelligence company that
+  did business as Hook Mobile, backed by 500 Global (500 Startups). Its App Growth
+  Engine (AGE) product offered iOS and Android SDKs and an API that let mobile app
+  and game developers grow their user base through word-of-mouth SMS/MMS social invitations,
+  device targeting, and conversion analytics. The company, founded by Terry Hsiao,
+  was active roughly 2010-2016 and is now defunct - wupima.com is a dead S3 bucket
+  (403 AllAccessDisabled) and hookmobile.com has been taken over by an unrelated
+  domain squatter serving spam, so no live website, developer portal, or API surface
+  remains. Profile retained as a historical 500 Global portfolio record.
 url: https://raw.githubusercontent.com/api-evangelist/wupima/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,24 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence: 'probed 2026-07-21: http://hookmobile.com 200 but serves unrelated
+  gambling spam (squatted); https://hookmobile.com TLS timeout; http://wupima.com
+  403 S3 AllAccessDisabled; GitHub org hookmobile dormant since 2016 with 0 public
+  repos; Wayback shows wupima.com redirecting to hookmobile.com (live 2007-2016,
+  dead by 2019)'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mobile
+- Marketing
+- SMS
+- SDK
+- Apps
+- Viral Growth
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,14 @@ maintainers:
 common:
 - type: Website
   url: https://hookmobile.com
+  x-status: squatted-domain-do-not-crawl
+- type: LLMsTxt
+  url: llms/wupima-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/hookmobile
+  x-status: dormant
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
