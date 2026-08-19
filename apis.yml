@@ -34,7 +34,7 @@ x-status-evidence: 'probed 2026-07-21: http://hookmobile.com 200 but serves unre
   403 S3 AllAccessDisabled; GitHub org hookmobile dormant since 2016 with 0 public
   repos; Wayback shows wupima.com redirecting to hookmobile.com (live 2007-2016,
   dead by 2019)'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
