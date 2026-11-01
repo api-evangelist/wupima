@@ -64,6 +64,35 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Wupima, Inc. was a Virginia-based mobile social intelligence company that did business as Hook Mobile, backed by 500 Global (500 Startups). Its App Growth Engine (AGE) offered iOS/Android SDKs and an API for growing mobile app and game user bases through word-of-mouth SMS/MMS social invitations. Founded by Terry Hsiao and active roughly 2010-2016, the company is now defunct: wupima.com is a dead S3 bucket and hookmobile.com has been taken over by an unrelated domain squatter, so no live website, developer portal, or API surface remains.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: 500-global — https://hookmobile.com (squatted; historical domain)
+Wupima, Inc. was a Virginia-based mobile social intelligence company that did business as Hook Mobile, backed by 500 Global (500 Startups). Its App Growth Engine (AGE) product offered iOS and Android SDKs and an API that let mobile app and game developers grow their user base through word-of-mouth SMS/MMS social invitations, device targeting, and conversion analytics. The company, founded by Terry Hsiao, was active roughly 2010-2016 and is now defunct - wupima.com is a dead S3 bucket (403 AllAccessDisabled) and hookmobile.com has been taken over by an unrelated domain squatter serving spam, so no live website, developer portal, or API surface remains. Profile retained as a historical 500 Global portfolio record.
+
+**Areas:** Company · Mobile · Marketing · SMS · SDK · Application · Viral Growth · Defunct
+
+## Wupima on APIs.io (historical record)
+
+Everything profiled for Wupima is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wupima/](https://apis.io/providers/wupima/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hookmobile.com)
+- [GitHub](https://github.com/hookmobile)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wupima: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wupima/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
